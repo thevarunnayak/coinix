@@ -156,7 +156,7 @@
   }
 
   .main-container {
-    @apply py-6 md:py-12 mx-auto px-4 sm:px-6 max-w-360 w-full space-y-6 md:space-y-6;
+    @apply h-fit mx-auto px-4 sm:px-6 w-full bg-black;
   }
 
   .badge {
@@ -189,11 +189,11 @@
         @apply flex h-full items-center;
 
         .nav-link {
-          @apply px-6 py-5 flex items-center transition-all hover:text-white font-medium h-full text-purple-100 cursor-pointer;
+          @apply px-6 py-5 flex items-center transition-all text-white font-medium h-full cursor-pointer;
         }
 
         .nav-link.is-active {
-          @apply text-white;
+          @apply text-gray-300;
         }
 
         .nav-link.is-home {
